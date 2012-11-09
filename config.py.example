@@ -1,0 +1,9 @@
+# Copy this file to config.py for your need
+
+PROTOCOL = 'http'
+PORT = 8888
+HOST = 'localhost'
+
+DEBUG = True
+
+SentryDSN = '{PROTOCOL}://{PUBLIC_KEY}:{SECRET_KEY}@{HOST}/{PATH}{PROJECT_ID}'
